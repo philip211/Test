@@ -1,0 +1,122 @@
+
+.user-profile-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2D3E3F; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-container h1 {
+    text-align: center;
+    color: #E6E6E6;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+
+.average-rating-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.average-rating-container h2 {
+    font-size: 1.5rem;
+    color: #648080; 
+}
+
+
+.review-card {
+    background-color: #1B2E2F; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.review-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.review-card p {
+    margin: 0 0 10px;
+    color: #E6E6E6; 
+    font-size: 1.1rem;
+}
+
+.review-card .reviewer-name {
+    font-weight: bold;
+    color: #648080; 
+}
+
+.review-card .review-rating {
+    color: #FFD700; 
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #4B6B6B; 
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button i {
+    margin-right: 8px;
+}
+
+.back-button:hover {
+    background-color: #648080; 
+    transform: scale(1.05);
+}
+
+
+.review-form-container {
+    margin-bottom: 40px;
+}
+
+.review-form-container textarea, .review-form-container select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #648080; 
+    border-radius: 6px;
+    background-color: #2D3E3F; 
+    transition: border-color 0.3s ease;
+}
+
+.review-form-container textarea:focus, .review-form-container select:focus {
+    border-color: #354747; 
+}
+
+.review-form-container button {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 25px;
+    background-color: #4B6B6B;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.review-form-container button:hover {
+    background-color: #648080;
+    transform: scale(1.05);
+}
+
+.review-form-container button:active {
+    background-color: #354747;
+    transform: scale(0.98);
+}

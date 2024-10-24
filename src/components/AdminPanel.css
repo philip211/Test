@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1B2E2F; 
+    margin: 0;
+    padding: 0;
+    color: #E6E6E6; 
+}
+
+h1 {
+    font-size: 28px;
+    color: #648080; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 8px;
+    background-color: #4B6B6B; 
+    color: #E6E6E6; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #648080; 
+    color: #1B2E2F; 
+    transform: scale(1.05); 
+}
+
+p {
+    color: #E6E6E6; 
+    font-size: 16px;
+}
+
+.review-container {
+    border: 1px solid #648080; 
+    background-color: #2D3E3F; 
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.2s ease;
+}
+
+.review-container:hover {
+    transform: scale(1.02);
+    background-color: #354747; 
+}
+
+.error {
+    color: #FF6B6B; 
+    font-size: 16px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #E6E6E6;
+}
+
+.admin-panel-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.column-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-item {
+    border: 1px solid #648080;
+    background-color: #2D3E3F;
+    border-radius: 6px;
+    padding: 15px;
+    margin: 15px 0;
+    transition: transform 0.2s ease;
+}
+
+.review-item:hover {
+    transform: scale(1.02);
+    background-color: #354747; 
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button i {
+    margin-right: 5px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.back-button {
+    margin-top: 20px;
+    background-color: #4B6B6B;
+    color: #E6E6E6;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #648080;
+    color: #1B2E2F;
+    transform: scale(1.05);
+}
+
+.sort-options {
+    margin-bottom: 15px;
+}
+
+.toggle-view-button {
+    margin: 10px 0;
+    background-color: #4B6B6B;
+    color: #E6E6E6;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.toggle-view-button:hover {
+    background-color: #648080;
+    color: #1B2E2F;
+    transform: scale(1.05);
+}

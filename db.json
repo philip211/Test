@@ -1,0 +1,184 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "role": "user",
+      "averageRating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "role": "admin",
+      "averageRating": 4
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "role": "user",
+      "averageRating": 3.5
+    }
+  ],
+  "reviews": [
+    {
+      "id": "101",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "Excellent service! Everything was fast and professional. I am very satisfied with the result and will definitely come back again.",
+      "date": "2024-10-01"
+    },
+    {
+      "id": "102",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 4,
+      "text": "Overall a good experience, but there were a couple of small delays. However, it didn't spoil the impression.",
+      "date": "2024-09-28"
+    },
+    {
+      "id": "103",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 4,
+      "text": "Great work by the team! I didn't expect such a high level of service. A bit expensive, but the quality is worth it.",
+      "date": "2024-10-03"
+    },
+    {
+      "id": "104",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 3,
+      "text": "I can't say it was my best experience. There were many delays, and the quality of work left much to be desired.",
+      "date": "2024-09-30"
+    },
+    {
+      "id": "105",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 4,
+      "text": "After a long wait, the result was still satisfactory. Hopefully, next time it will be faster.",
+      "date": "2024-09-25"
+    },
+    {
+      "id": "106",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "Incredible service! Every aspect of the work was top-notch, from start to finish. Highly recommend!",
+      "date": "2024-10-05"
+    },
+    {
+      "id": "107",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "Amazing experience! The team was very professional, and I’m impressed with the outcome.",
+      "date": "2024-10-06"
+    },
+    {
+      "id": "108",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 3,
+      "text": "It was okay, but there was too much waiting involved. The quality was fine, but the delays were frustrating.",
+      "date": "2024-10-04"
+    },
+    {
+      "id": "109",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 2,
+      "text": "Disappointing experience. I expected much more for the price. Will not be returning.",
+      "date": "2024-10-02"
+    },
+    {
+      "id": "110",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 4,
+      "text": "Good service overall, but there were some minor issues with timing. Still, I’m happy with the final result.",
+      "date": "2024-10-06"
+    },
+    {
+      "id": "111",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 4,
+      "text": "A solid experience. Some room for improvement, but overall it was worth it.",
+      "date": "2024-10-07"
+    },
+    {
+      "id": "112",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 5,
+      "text": "Fantastic! Everything was done exactly as promised and on time.",
+      "date": "2024-10-05"
+    },
+    {
+      "id": "113",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 3,
+      "text": "Not impressed. The service was slow, and the final product wasn’t what I expected.",
+      "date": "2024-10-03"
+    },
+    {
+      "id": "114",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "One of the best services I’ve ever received! Will definitely recommend to others.",
+      "date": "2024-10-08"
+    },
+    {
+      "id": "115",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 4,
+      "text": "The service was very good, though there were some delays. Overall, I’m satisfied with the work done.",
+      "date": "2024-10-02"
+    },
+    {
+      "id": "116",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 5,
+      "text": "Couldn’t be happier! The team went above and beyond to ensure everything was perfect.",
+      "date": "2024-10-04"
+    },
+    {
+      "id": "117",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 4,
+      "text": "Good experience overall. Minor issues, but they were resolved quickly.",
+      "date": "2024-10-09"
+    },
+    {
+      "id": "118",
+      "userId": "2",
+      "userName": "Jane Smith",
+      "rating": 3,
+      "text": "Average service. Nothing particularly bad, but it didn’t exceed my expectations either.",
+      "date": "2024-10-07"
+    },
+    {
+      "id": "119",
+      "userId": "3",
+      "userName": "Alice Johnson",
+      "rating": 2,
+      "text": "Very slow service, and the final result wasn’t worth the wait. Disappointing.",
+      "date": "2024-10-06"
+    },
+    {
+      "id": "120",
+      "userId": "1",
+      "userName": "John Doe",
+      "rating": 5,
+      "text": "Flawless experience! Every detail was taken care of, and the team was amazing.",
+      "date": "2024-10-10"
+    }
+  ]
+}

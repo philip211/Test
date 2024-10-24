@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1B2E2F, #091A0C); 
+  color: #E6E6E6;
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #648080; 
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #4B6B6B; 
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #6B8E23; 
+}
+
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2D3E3F; 
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.container:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15); 
+}
+
+
+button {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px; 
+  padding: 12px 20px;
+  margin-top: 12px;
+  background-color: #354747; 
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.App-link {
-  color: #61dafb;
+button i {
+  font-size: 1.2rem; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+button:hover {
+  background-color: #4B6B6B; 
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #6B8E23; 
+  transform: scale(0.98);
+}
+
+
+input, textarea, select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #648080; 
+  border-radius: 5px;
+  background-color: #2D3E3F; 
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #6B8E23; 
+  box-shadow: 0 0 5px rgba(107, 142, 35, 0.5); 
+}
+
+
+.error-message {
+  color: #FF6B6B; 
+  background-color: #FFE6E6;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.success-message {
+  color: #4CAF50; 
+  background-color: #E6F4E6;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+.review-item {
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #2D3E3F; 
+  border: 1px solid #648080;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review-item p {
+  margin: 0;
+  color: #E6E6E6; 
+}
+
+
+.star-rating {
+  display: flex;
+  gap: 5px;
+}
+
+.star-rating i {
+  color: #FFD700; 
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+
+  button {
+    width: 100%;
   }
 }
